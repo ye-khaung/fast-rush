@@ -10,7 +10,6 @@ function _view_resolver($page, $data = null)
 			extract($data);
 		}
 		require DD . '/app/view/' . $page . '.html';
-		array
 	}
 	ob_end_flush();
 }
